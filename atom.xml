@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>绿猫小站</title>
+  
+  <subtitle>Just So So ...</subtitle>
+  <link href="http://lmxz.qaqxx.cn/atom.xml" rel="self"/>
+  
+  <link href="http://lmxz.qaqxx.cn/"/>
+  <updated>2021-08-18T07:22:39.145Z</updated>
+  <id>http://lmxz.qaqxx.cn/</id>
+  
+  <author>
+    <name>Tufmoc</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>欢迎来到Hexo的世界!</title>
+    <link href="http://lmxz.qaqxx.cn/2021/08/18/first/"/>
+    <id>http://lmxz.qaqxx.cn/2021/08/18/first/</id>
+    <published>2021-08-18T07:20:55.000Z</published>
+    <updated>2021-08-18T07:22:39.145Z</updated>
+    
+    <content type="html"><![CDATA[<p>芜湖!这是我小站的Hexo版本分站!会和Typecho版本同步更新!(前提是我写文章<br>主站:lmxiaozhan.qaqxx.cn<br>欢迎打卡!<br>Powered By Github Pages&amp;Hexo&amp;Tufmoc</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;芜湖!这是我小站的Hexo版本分站!会和Typecho版本同步更新!(前提是我写文章&lt;br&gt;主站:lmxiaozhan.qaqxx.cn&lt;br&gt;欢迎打卡!&lt;br&gt;Powered By Github Pages&amp;amp;Hexo&amp;amp;Tufmoc&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
