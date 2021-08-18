@@ -26,7 +26,8 @@
                     我很喜欢的一句话:<br> -切东西都是灰色,只不过被温暖添上了颜色-
 
                 </p>
-
+                </p>
+            
                 <p>Catch me:</p>
                 <div class="row">
                     <a href="http://lmxiaozhan.qaqxx.cn/index.php" target="_blank" class="btn btn-fail col-lg-4">BLOG</a>
