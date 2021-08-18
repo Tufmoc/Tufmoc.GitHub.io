@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="">
 
 <head>
@@ -33,7 +32,6 @@
                     <a href="http://lmxiaozhan.qaqxx.cn/index.php" target="_blank" class="btn btn-fail col-lg-4">BLOG</a>
                     <a href="https://space.bilibili.com/29211579" target="_blank" class="btn btn-secondary col-lg-4">BiliBili</a>
                     <a href="https://github.com/Tufmoc" target="_blank" id="kaygb-mail-a" class="btn btn-success col-lg-4">Github</a>
-                    <button id="kaygb-mail" class="btn btn-success col-lg-4">Github</button>
                 </div>
 
 
@@ -52,7 +50,6 @@
                         <a href="http://lmxiaozhan.qaqxx.cn/index.php" target="_blank" rel="">Tufmoc</a>
   
 
-                    </p>
                     </p>
 
                 </footer>
@@ -98,5 +95,3 @@
             });
         });
     </script>
-
-</html>
