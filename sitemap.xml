@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://lmxz.qaqxx.cn/2021/08/18/first/</loc>
+    <loc>http://lmxz.qaqxx.cn/about/index.html</loc>
     
-    <lastmod>2021-08-18</lastmod>
+    <lastmod>2022-02-05</lastmod>
     
   </url>
   
   <url>
-    <loc>http://lmxz.qaqxx.cn/about/index.html</loc>
+    <loc>http://lmxz.qaqxx.cn/2021/08/18/first/</loc>
     
     <lastmod>2021-08-18</lastmod>
     
@@ -25,7 +25,7 @@
 
   <url>
     <loc>http://lmxz.qaqxx.cn/</loc>
-    <lastmod>2021-08-19</lastmod>
+    <lastmod>2022-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
