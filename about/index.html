@@ -45,8 +45,8 @@ Profile 状况现在个人状况是单身，男！性格温顺(? 比较随和，
 <meta property="og:description" content="嗨多磨! 我系绿猫! 18岁,是高三学生,压力真的很大…欢迎来到我的个人简介!哼,哼,哼,啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊  Profile 状况现在个人状况是单身，男！性格温顺(? 比较随和，脾气很好,只要不是惹我基本不会生气ww 而且不算很社恐(意思就是一半社牛一半社恐(x不过有时候心情不太好的时候会有点负能…想要有个能拥抱的对象!我是个很好说话的人 只要你对我好，我也同样会">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2024-09-05T17:13:54.113Z">
-<meta property="article:modified_time" content="2024-09-05T17:13:54.113Z">
+<meta property="article:published_time" content="2024-09-05T18:00:16.356Z">
+<meta property="article:modified_time" content="2024-09-05T18:00:16.356Z">
 <meta property="article:author" content="Tufmoc">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -286,103 +286,6 @@ button {
   position: relative;
   overflow: hidden;
   margin-bottom: -100px;
-}
-.cover-wrapper .cover-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-}
-.cover-wrapper .cover-bg.lazyload:not(.loaded) {
-  opacity: 0;
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-}
-.cover-wrapper .cover-bg.lazyload.loaded {
-  animation-delay: 0s;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-  animation-name: fadeIn;
-}
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
 }
 .cover-wrapper .cover-body {
   z-index: 1;
@@ -847,6 +750,71 @@ button {
   .cover-wrapper.dock .menu {
     background: rgba(255,255,255,0.5);
     backdrop-filter: saturate(200%) blur(20px);
+  }
+}
+.cover-wrapper #parallax-window {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.parallax-mirror {
+  animation-delay: 0s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-name: fadeIn;
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -1925,7 +1893,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.af2d54c8.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.d9437285.js","rightMenus":"/js/plugins/rightMenus.1aa99ff1.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.0e52f222.js"},"css":{"style":"/css/style.56a0f815.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1725557916570),
+    lastupdate: new Date(1725559273116),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo"],
       for_post: ["toc","category","tagcloud","webinfo"],
@@ -2654,7 +2622,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <p><img src="https://tufxz.top/usr/uploads/2024/03/3568539301.jpg" class="lazyload" data-srcset="https://tufxz.top/usr/uploads/2024/03/3568539301.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="b_2acb45556dc1f5748b5ebd34f28a4b66.jpg"><br>这里是我的个人OC,画师妈妈是<strong>耶里特</strong>!!</p>
 <span id="more"></span>
 
-</div><div class="story post-story"><h2 id="Personality-兴趣爱好"><a href="#Personality-兴趣爱好" class="headerlink" title="Personality 兴趣爱好"></a><strong>Personality</strong> 兴趣爱好</h2><p>关于个人爱好，我喜欢摄影！遇到好看的风景都会毫不犹豫的拍下来ww,一个人旅行也很喜欢哦！平时有空的时候会听着歌发会呆ww,对于电子产品也很感兴趣!<br>听歌方面喜欢听EDM还有日式歌曲之类的~(目前在听Hardcore,力推Tano*c)<br>关于打游戏方面,玩什么类型呢?例如FPS,赛车,音游之类的,现在主玩BlueArchive,地平线5,GTA5,Minecraft,Phigros,Maimai,OSU!Mania等…<strong>其他的也有在玩!（例如明日方舟）</strong><br>经济能力不太好,但是Steam库存1w+（逃<br>同时也拥有Epic,Ubisoft Connect,Origin等平台游戏账号<br><img src="https://ice.frostsky.com/2024/08/13/e773da02a7d29f913e165effe5b5baea.webp" class="lazyload" data-srcset="https://ice.frostsky.com/2024/08/13/e773da02a7d29f913e165effe5b5baea.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="e773da02a7d29f913e165effe5b5baea.webp" border="0"><br><img src="https://ice.frostsky.com/2024/08/13/b1b23eb732c19bd522d7a2ac3e751602.webp" class="lazyload" data-srcset="https://ice.frostsky.com/2024/08/13/b1b23eb732c19bd522d7a2ac3e751602.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="b1b23eb732c19bd522d7a2ac3e751602.webp" border="0"><br><img src="https://tufxz.top/usr/uploads/2024/03/1449044552.jpg" class="lazyload" data-srcset="https://tufxz.top/usr/uploads/2024/03/1449044552.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Screenshot_20240228_171041_com.excean.splay.jpg"></p>
+</div><div class="story post-story"><h2 id="Personality-兴趣爱好"><a href="#Personality-兴趣爱好" class="headerlink" title="Personality 兴趣爱好"></a><strong>Personality</strong> 兴趣爱好</h2><p>关于个人爱好，我喜欢摄影！遇到好看的风景都会毫不犹豫的拍下来ww,一个人旅行也很喜欢哦！平时有空的时候会听着歌发会呆ww,对于电子产品也很感兴趣!<br>听歌方面喜欢听EDM还有日式歌曲之类的~(目前在听Hardcore,力推Tano*c)<br>关于打游戏方面,玩什么类型呢?例如FPS,赛车,音游之类的,现在主玩BlueArchive,地平线5,GTA5,Minecraft,Phigros,Maimai,OSU!Mania等…<strong>其他的也有在玩!（例如明日方舟）</strong><br>经济能力不太好,但是Steam库存1w+（逃<br>同时也拥有Epic,Ubisoft Connect,Origin等平台游戏账号<br><img src="https://ice.frostsky.com/2024/09/06/f369583dce119f0b9e555dc11b4090e7.jpeg" class="lazyload" data-srcset="https://ice.frostsky.com/2024/09/06/f369583dce119f0b9e555dc11b4090e7.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="f369583dce119f0b9e555dc11b4090e7.jpeg" border="0"><br><img src="https://ice.frostsky.com/2024/09/06/8335a3466f27365823e9647527443d11.jpeg" class="lazyload" data-srcset="https://ice.frostsky.com/2024/09/06/8335a3466f27365823e9647527443d11.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="8335a3466f27365823e9647527443d11.jpeg" border="0"><br><img src="https://ice.frostsky.com/2024/09/06/018f32d1d99f9f5fcbdfc9f7870d730f.jpeg" class="lazyload" data-srcset="https://ice.frostsky.com/2024/09/06/018f32d1d99f9f5fcbdfc9f7870d730f.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="018f32d1d99f9f5fcbdfc9f7870d730f.jpeg" border="0"></p>
 <hr>
 </div><div class="story post-story"><h2 id="Devices-设备"><a href="#Devices-设备" class="headerlink" title="Devices 设备"></a><strong>Devices</strong> 设备</h2><p>手机:<strong>HUAWEI</strong> Mate 50Pro+<strong>HUAWEI</strong> P40</p>
 <p>平板:<strong>HUAWEI</strong> MatePad Air+<strong>HUAWEI</strong> M-Pencil2</p>
@@ -2665,10 +2633,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <p>相机:<strong>Panasonic</strong> Lumix S1+<strong>Lumix</strong> S 20-60mm f&#x2F;3.5-5.6+<strong>LUMIX</strong> S 70-300mm f&#x2F;4.5-5.6+<strong>LUMIX</strong> S 50mm f&#x2F;1.8</p>
 <p>载具:<strong>小牛</strong> MQIL Sport</p>
 <p>VR头显:<strong>Meta</strong> Quest2</p>
-<img src="https://ice.frostsky.com/2024/03/04/cf022dec24831ba69e5bd90c5d9ed508.jpeg" class="lazyload" data-srcset="https://ice.frostsky.com/2024/03/04/cf022dec24831ba69e5bd90c5d9ed508.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="cf022dec24831ba69e5bd90c5d9ed508.jpeg" border="0">
-<img src="https://ice.frostsky.com/2024/03/04/a5b90cdb5d4b46f0b8f40a5def91783c.webp" class="lazyload" data-srcset="https://ice.frostsky.com/2024/03/04/a5b90cdb5d4b46f0b8f40a5def91783c.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="a5b90cdb5d4b46f0b8f40a5def91783c.webp" border="0">
-<img src="https://ice.frostsky.com/2024/03/04/c4185f7cee4622e5c4e2732d8ada51b1.webp" class="lazyload" data-srcset="https://ice.frostsky.com/2024/03/04/c4185f7cee4622e5c4e2732d8ada51b1.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="c4185f7cee4622e5c4e2732d8ada51b1.webp" border="0">
-<img src="https://ice.frostsky.com/2024/08/13/b4bf1bbce48ce621e9f2941c66c99b90.webp" class="lazyload" data-srcset="https://ice.frostsky.com/2024/08/13/b4bf1bbce48ce621e9f2941c66c99b90.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="b4bf1bbce48ce621e9f2941c66c99b90.webp" border="0">
+<img src="https://ice.frostsky.com/2024/09/06/f21ad664e71a8c347b3d8834bea9fedf.jpeg" class="lazyload" data-srcset="https://ice.frostsky.com/2024/09/06/f21ad664e71a8c347b3d8834bea9fedf.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="f21ad664e71a8c347b3d8834bea9fedf.jpeg" border="0">
+<img src="https://ice.frostsky.com/2024/09/06/c4a85c2205c4b39b956c1ee88faee42a.jpeg" class="lazyload" data-srcset="https://ice.frostsky.com/2024/09/06/c4a85c2205c4b39b956c1ee88faee42a.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="c4a85c2205c4b39b956c1ee88faee42a.jpeg" border="0">
+<img src="https://ice.frostsky.com/2024/09/06/858e93f481bde0f2a8ba64cb3516d6fa.jpeg" class="lazyload" data-srcset="https://ice.frostsky.com/2024/09/06/858e93f481bde0f2a8ba64cb3516d6fa.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="858e93f481bde0f2a8ba64cb3516d6fa.jpeg" border="0">
 
 
 <hr>
@@ -2882,6 +2849,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.css("https://unpkg.com/volantis-static@0.0.1654736714924/libs/@fortawesome/fontawesome-free/css/all.min.css");
   
   
+  volantis.css("https://unpkg.com/volantis-static@0.0.1654736714924/libs/font-awesome-animation/font-awesome-animation.min.css");
+  
   
 </script>
 
@@ -3077,6 +3046,20 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
+  
+
+<script>
+  window.FPConfig = {
+	delay: 0,
+	ignoreKeywords: ["#"],
+	maxRPS: 6,
+	hoverDelay: 0
+  };
+</script>
+<script defer src="https://unpkg.com/volantis-static@0.0.1654736714924/libs/flying-pages/flying-pages.min.js"></script>
+
+
+
 
 
    <script type="text/javascript">
@@ -3239,6 +3222,61 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
+
+
+  <script>
+  let imgs = ["https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/035.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/016.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/056.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/006.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/038.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/033.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/002.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/039.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/046.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/051.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/042.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/005.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/012.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/025.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/004.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/019.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/034.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/052.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/054.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/003.webp","https://unpkg.com/volantis-static@0.0.1654736714924/media/wallpaper/minimalist/2020/001.webp"];
+  let index = 0;
+  let IntervalParallax = null;
+
+  function parallax(){
+    let ParallaxWindow = document.querySelector("#parallax-window");
+    
+    Parallax.window = ParallaxWindow;
+    Parallax.options.fade = 1500;
+    Parallax.cache = 1;
+    next_parallax();
+    Parallax.init();
+    if (imgs.length>1) {
+      IntervalParallax = setInterval(function () {
+        next_parallax();
+      }, '10000');
+    }
+  }
+
+  function next_parallax() {
+    if (typeof Parallax == "undefined") {
+      return
+    }
+    
+      if (!document.querySelector("#full")&&!document.querySelector("#half")) {
+        return
+      }
+    
+    if (imgs.length>=1) {
+      Parallax.options.src = imgs[index % imgs.length];
+      Parallax.start();
+      index++;
+      if (Parallax.cache) {
+        fetch(imgs[index % imgs.length] +"?t=" + new Date().getTime());
+        if (index == imgs.length) {
+          Parallax.cache = 0;
+        }
+      }
+    }
+  }
+  var runningOnBrowser = typeof window !== "undefined";
+  var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+  if (!isBot) {
+    volantis.js('/js/plugins/parallax.8bf0ab10.js').then(()=>{
+      parallax()
+    })
+    volantis.pjax.send(()=>{
+      clearInterval(IntervalParallax)
+    },"clearIntervalParallax");
+    volantis.pjax.push(parallax);
+  }
+</script>
 
 
 
@@ -3504,7 +3542,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"绿猫小站","url":"http://git.tufxz.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Tufmoc","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://git.tufxz.top/","sameAs":["https://github.com/volantis-x"],"description":"嗨!"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://git.tufxz.top/","name":"绿猫小站"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"绿猫小站","url":"http://git.tufxz.top/","keywords":null,"description":"嗨!","author":{"@type":"Person","name":"Tufmoc","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://git.tufxz.top/","description":"嗨!"},"publisher":{"@type":"Organization","name":"绿猫小站","url":"http://git.tufxz.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://git.tufxz.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"关于","description":"\n嗨多磨! 我系绿猫! 18岁,是高三学生,压力真的很大…欢迎来到我的个人简介!哼,哼,哼,啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\n\nProfile 状况现在个人状况是单身，男！性格温顺(? 比较随和，脾气很好,只要不是惹我基本不会生气ww 而且不算很社恐(意思就是一半社牛一半社恐(x不过有时候心情不太好的时候会有点负能…想要有个能拥抱的对象!我是个很好说话的人 只要你对我好，我也同样会对你好xDD,欢迎同好加好友了解…!身高176cm，体重50KG（太弱小了↑↓），现居住在广西，欢迎来击剑♂ 生日是9.16哦(OvO)你可以称呼我为：绿猫（也可以是绿毛&#x2F;绿帽），绿脑壳，青蛙头，残羽，i9，Tufmoc等等….（如果你要是闲着，可以给我起外号,只要不是很过分的我都会接受的!\n\n这里是我的个人OC,画师妈妈是耶里特!!","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://git.tufxz.top/about/index.html"},"author":{"@type":"Person","name":"Tufmoc","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://git.tufxz.top/"},"publisher":{"@type":"Organization","name":"绿猫小站","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://git.tufxz.top/about/index.html","wordCount":373,"datePublished":"2024-09-05T17:13:54.113Z","dateModified":"2024-09-05T17:13:54.113Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"绿猫小站","url":"http://git.tufxz.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Tufmoc","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://git.tufxz.top/","sameAs":["https://github.com/volantis-x"],"description":"嗨!"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://git.tufxz.top/","name":"绿猫小站"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"绿猫小站","url":"http://git.tufxz.top/","keywords":null,"description":"嗨!","author":{"@type":"Person","name":"Tufmoc","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://git.tufxz.top/","description":"嗨!"},"publisher":{"@type":"Organization","name":"绿猫小站","url":"http://git.tufxz.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://git.tufxz.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"关于","description":"\n嗨多磨! 我系绿猫! 18岁,是高三学生,压力真的很大…欢迎来到我的个人简介!哼,哼,哼,啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\n\nProfile 状况现在个人状况是单身，男！性格温顺(? 比较随和，脾气很好,只要不是惹我基本不会生气ww 而且不算很社恐(意思就是一半社牛一半社恐(x不过有时候心情不太好的时候会有点负能…想要有个能拥抱的对象!我是个很好说话的人 只要你对我好，我也同样会对你好xDD,欢迎同好加好友了解…!身高176cm，体重50KG（太弱小了↑↓），现居住在广西，欢迎来击剑♂ 生日是9.16哦(OvO)你可以称呼我为：绿猫（也可以是绿毛&#x2F;绿帽），绿脑壳，青蛙头，残羽，i9，Tufmoc等等….（如果你要是闲着，可以给我起外号,只要不是很过分的我都会接受的!\n\n这里是我的个人OC,画师妈妈是耶里特!!","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://git.tufxz.top/about/index.html"},"author":{"@type":"Person","name":"Tufmoc","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://git.tufxz.top/"},"publisher":{"@type":"Organization","name":"绿猫小站","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://git.tufxz.top/about/index.html","wordCount":373,"datePublished":"2024-09-05T18:00:16.356Z","dateModified":"2024-09-05T18:00:16.356Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
